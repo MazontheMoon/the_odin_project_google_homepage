@@ -2,7 +2,7 @@
 <html lang="en-us">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My webpage</title>
+        <title>My Google homepage</title>
         <meta name="author" content="MazontheMoon">
         <meta name="description" content="My Google homepage for the Odin Project">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -10,10 +10,12 @@
     </head>
     <body>
         <main>
-            <nav>
+            <nav id="header_menu">
                 <ul>
-                    <li>Google apps</li>
-                    <li>Google profile</li>
+                    <li>Gmail</li>
+                    <li>Images</li>
+                    <li>apps</li>
+                    <li>profile</li>
                 </ul>
             </nav>
             <figure>
@@ -24,19 +26,27 @@
                 <input type="button" name="btn_search" id="btn_search" value="Google Search"> 
                 <input type="button" name="btn_search_luck" id="btn_search_luck" value="I'm feeling lucky!"> 
             </form>
-            <p>Google offered in <a href="#">Irish</a></p>
+            <div>
+                <p>Google offered in <a href="#">Irish</a></p>
+            </div>
         </main>
         <footer>
-            <div id="footer_menu">
-                <ul>
+            <div id="footer_menu_top">
+                <p>Ireland</p>
+            </div>
+            <div id="footer_menu_bottom">
+                <ul id="footer_menu_bottom_left">
                     <li>About</li>
                     <li>Advertising</li>
+                    <li>Business</li>
+                    <li>How search works</li>
+                </ul>
+                <ul id="footer_menu_bottom_right">
                     <li>Privacy</li>
                     <li>Terms</li>
                     <li>Settings</li>
                 </ul>
             </div>
-
         </footer>
     </body>
 </html>
